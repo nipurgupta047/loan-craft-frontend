@@ -1,0 +1,129 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f8fafa;
+  color: #333;
+}
+
+/* Main Apply Section */
+.apply-section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.form-container {
+  flex: 1;
+  max-width: 500px;
+}
+
+.form-container h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #0b3d3b;
+}
+
+form label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="date"],
+form input[type="file"],
+form input[type="range"]{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccd4d4;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+form select{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccd4d4;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.upload-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.upload-field {
+  flex: 1;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #007b7b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #005e5e;
+}
+
+/* Illustration */
+.illustration {
+}
+
+.illustration img {
+  max-width: 350px;
+  width: 100%;
+}
+
+.popupDiv{
+  width: 40%;
+  padding: 10px 10px;
+  background: white;
+  border-radius: 10px;
+}
+
+.popupDivText{
+  font-size: 16px;
+}
+
+.popupCloseButtonDiv{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.popupCloseButton{
+  background: #b9b9b9;
+  font-weight: bold;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+}
+.popupCloseButton:hover{
+  background-color: #c3c3c3;
+}
+
+.fetchedAppId{
+  font-weight: bold;
+  color: rgb(0, 157, 255);
+}

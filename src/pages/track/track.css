@@ -1,0 +1,142 @@
+
+/* Main Section */
+.track-section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.left-side {
+  flex: 1;
+  max-width: 550px;
+}
+
+.left-side h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #0b3d3b;
+}
+
+.search-box {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ccd4d4;
+  border-radius: 5px 0 0 5px;
+  font-size: 14px;
+}
+
+/* Status Cards */
+.status-card {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.status-icon img {
+  width: 32px;
+  height: 32px;
+}
+
+.status-info {
+  margin-left: 15px;
+}
+
+.status-info h3 {
+  font-size: 16px;
+  color: #0b3d3b;
+}
+
+.status-info p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Score Circle */
+.right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.score-container {
+  width: 160px;
+  height: 160px;
+}
+
+.circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.circle svg {
+  width: 150px;
+  height: 150px;
+  transform: rotate(-90deg);
+}
+
+.circle svg circle {
+  fill: none;
+  stroke-width: 10;
+  stroke: #e0e0e0;
+  stroke-linecap: round;
+}
+
+.circle svg circle:nth-child(2) {
+  stroke-dasharray: 440;
+  stroke-dashoffset: calc(440 - (440 * 92) / 100);
+  stroke: #007b7b;
+}
+
+.number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.number h2 {
+  font-size: 32px;
+  color: #0b3d3b;
+}
+
+.number p {
+  font-size: 14px;
+  color: #666;
+}
+
+.submit-btn-track{
+  margin-top: 0px;
+  margin-bottom: 20px !important;
+}
+
+.resultApproved{
+  font-size: 16px !important;
+  font-weight: bold;
+  color: rgb(0, 149, 0) !important  ;
+}
+
+.resultManual{
+  font-size: 16px !important;
+  font-weight: bold;
+  color: rgb(221, 125, 7) !important;
+}
+
+.resultReject{
+  font-size: 16px !important;
+  font-weight: bold;
+  color: rgb(149, 0, 0) !important;
+}

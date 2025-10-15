@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo-link {
+  text-decoration: none;
+  color: inherit;        /* keeps original color */
+}
+
+/* Prevent active highlight on the logo */
+.logo-link.active {
+  color: inherit;
+  border: none;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+  color: #0b3d3b;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #0b3d3b;
+  font-weight: 500;
+}
+
+.navbar nav a.active,
+.navbar nav a:hover {
+  color: #007b7b;
+}
+
+.download-btn {
+  background-color: #007b7b;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.download-btn:hover {
+  background-color: #005e5e;
+  cursor: pointer;
+}
